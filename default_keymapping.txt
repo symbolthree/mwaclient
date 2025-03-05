@@ -1,0 +1,69 @@
+Action: Help
+Default Key: F1
+Description: Display the keys that functions have been mapped to. This screen can be exited by pressing the key mapped to the Back function.
+
+Action: Menu
+Default Key: F2
+Description: Used to return to the last menu and cancel any transaction that has not yet been committed.
+
+Action: Back
+Default Key: F3
+Description: Used to navigate to previous page displayed within a transaction. This key will also exit out of the Help Menu or a list of values.
+** The functionality of this key is mobile transaction form dependent.  Some forms may use the F3 key to go back.  However, this may not be available in all forms.
+
+Action: Forward
+Default Key: F4
+Description: Used to navigate to next page of display within a transaction. The same caveats pertain to Next Page as Previous Page as noted in F3. 
+
+Action: Clear
+Default Key: Control-K
+Description: Used to clear the field of any input.
+
+Action: LOV
+Default Key: Control-L
+Description: Used to display the list of available values for a field.
+
+Action: Main Menu
+Default Key: Control-N
+Description: Used to return to the main menu of a responsibility and cancel any transaction that has not yet been committed.
+
+Action: Message
+Default Key: Control-B
+Description: Used to display the long description of a message that has appeared on the status bar.
+
+Action: Toggle
+Default Key: Control-Z
+Description: Used to toggle between options in a list field.
+(Note that I have also seen Control-Z mapped to disconnect Telnet session. This immediately prompts the user to cancel the current connection.)
+
+Action: Show Field
+Default Key: Control-A
+Description: Used to show the current field on the entire page in the case that the field runs off the screen.
+
+Action: Hot Key
+Default Key: Esc
+Description: Used in conjunction with a button's accelerator key to press that button from anywhere on the page.
+
+Action: Page Up
+Default Key: Control-D
+Description: Used to retrieve the previous page of information.
+
+Action: Page Down
+Default Key: Control-C
+Description: Used to retrieve the next page of information.
+
+Action: Generate
+Default Key: Control-G
+Description: Used on a particular field in Inventory and WMS (e.g., lot number, serial number, license plate number) to generate a new number.
+
+Action: Skip Task
+Default Key: Control-S
+Description: Used on the task page to skip the current task.
+
+Action: About
+Default Key: Control-X
+Description: Used to invoke an 'About' page that lists details of the current connection that could be useful in debugging problems.
+
+Action: Flex Popup
+Default Key: Control-F
+Description: Used to bring up the segment-by-segment entry screen for a flexfield on the mobile user interface. 

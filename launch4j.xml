@@ -1,0 +1,39 @@
+<launch4jConfig>
+  <dontWrapJar>false</dontWrapJar>
+  <headerType>gui</headerType>
+  <jar>mwaclient.jar</jar>
+  <outfile>mwaclient.exe</outfile>
+  <errTitle></errTitle>
+  <cmdLine></cmdLine>
+  <chdir></chdir>
+  <priority>normal</priority>
+  <downloadUrl>http://java.com/download</downloadUrl>
+  <supportUrl></supportUrl>
+  <stayAlive>false</stayAlive>
+  <manifest></manifest>
+  <icon>oracle.ico</icon>
+  <singleInstance>
+    <mutexName>Oracle MWA</mutexName>
+    <windowTitle>Oracle Mobile Client for EBS</windowTitle>
+  </singleInstance>
+  <jre>
+    <path></path>
+    <bundledJre64Bit>false</bundledJre64Bit>
+    <minVersion>1.8.0</minVersion>
+    <maxVersion></maxVersion>
+    <jdkPreference>preferJre</jdkPreference>
+    <opt>-Dfile.encoding=UTF8</opt>
+  </jre>
+  <versionInfo>
+    <fileVersion>1.0.0.0</fileVersion>
+    <txtFileVersion>1.0.0.0</txtFileVersion>
+    <fileDescription>Oracle MWA - based on Patch 20983924</fileDescription>
+    <copyright>Oracle Corporation</copyright>
+    <productVersion>1.0.0.0</productVersion>
+    <txtProductVersion>1.0.0.0</txtProductVersion>
+    <productName>Oracle MWA Client</productName>
+    <companyName>Oracle Corporation</companyName>
+    <internalName>Oracle MWA</internalName>
+    <originalFilename>mwaclient.exe</originalFilename>
+  </versionInfo>
+</launch4jConfig>
